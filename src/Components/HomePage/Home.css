@@ -1,0 +1,43 @@
+@import "C:/Users/Dell/Desktop/coding/innovait_on/src/App.css";
+
+.home__swiper{
+    margin: initial;
+  }
+  .home__container{
+    padding-top: 2rem;
+    row-gap: 2.5rem;
+  
+  }
+  .home__data{
+    text-align: center;
+  }
+  .home__title{
+    font-size: var(--biggest-font-size);
+    margin-bottom: 1rem;
+  }
+  .home__subtitle{
+    font-size: var(--h2-font-size);
+    margin-bottom: 1rem;
+  }
+  .home__description{
+    margin-bottom: 2rem;
+  }
+  .home__images{
+    display: grid;
+    filter: drop-shadow(-5px -10px -5px grey);
+  }
+  .home__article,
+  .home__img{
+    width: 220px;
+    transition: transform .4s;
+  }
+  .home__article{
+    scale: .8;
+  }
+  
+  /* Swiper class */
+  .swiper-slide-active,
+  .swiper-slide-duplicate-active{
+    scale: 1;
+  }
+  

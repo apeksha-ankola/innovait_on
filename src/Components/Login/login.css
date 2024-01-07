@@ -1,0 +1,84 @@
+@import "C:/Users/Dell/Desktop/coding/innovait_on/src/App.css";
+
+.login{
+    position: fixed;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    z-index: var(--z-fixed);
+    background-color: hsla(230, 12%, 96%, .6);
+    backdrop-filter: blur(16px);
+    align-items: center;
+    text-align: center;
+    padding: 1.5rem;
+    transition: top .4s;
+  }
+  
+  .login__form{
+    background-color: var(--container-color);
+    padding: 2rem 1.5rem;
+    border: 2px solid var(--border-color);
+    row-gap: 1.25rem;
+  }
+  
+  .login__title{
+    font-size: var(--h2-font-size);
+  }
+  .login__group{
+    row-gap: 1.25rem;
+  }
+  
+  .login__label{
+    display: block;
+    margin-bottom: .25rem;
+    text-align: initial;
+    color: var(--title-color);
+    font-weight: var(--font-medium);
+  }
+  
+  .login__input{
+    width: 100%;
+    background-color: var(--container-color);
+    border: 2px solid  var(--border-color);
+    padding: 1rem;
+    color: var(--text-color);
+  }
+  .login__signup,
+  .login__forgot{
+    display: block;
+    font-size: var(--small-font-size);
+  }
+  
+  .login__signup{
+    margin-bottom: .5rem;
+  }
+  
+  .login__signup a{
+    color: var(--first-color);
+    font-weight: var(--font-medium);
+  }
+  
+  .login__forgot{
+    color: var(--first-color);
+    margin-bottom: 1.25rem;
+  }
+  
+  .logion__button{
+    width: 100%;
+    cursor: pointer;
+  }
+  .login__close{
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    font-size: 2rem;
+    color: var(--title-color);
+    cursor: pointer;
+  }
+  
+  /* Show login */
+  .show-login{
+    top: 0;
+  }
+  
+  
